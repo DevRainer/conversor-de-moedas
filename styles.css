@@ -6,8 +6,8 @@
 }
 
 body {
-  background-color: #8a51fc;
-  color: #333;
+  background-color: #F0F4F8;
+  color: #22223b;
   font-size: 16px;
   line-height: 1.6;
   margin-top: 100px;
@@ -23,7 +23,7 @@ body {
 h1 {
   
   text-align: center;
-  color: #fff;
+  color: #2D9CDB;
   font-size: 36px;
   line-height: 1.2;
   margin-bottom: 20px;
@@ -37,12 +37,12 @@ main {
   border-radius: 15px;
   margin: 0 auto;
   padding: 44px 24px 23px;
-  background: #F4F4F4;
-  border: 5px solid #454557; /* Adicione esta linha */
+  background: #FFFFFF;
+  border: 5px solid #2D9CDB; /* Adicione esta linha */
 }
 
 label {
-  color: #777;
+  color: #4A4E69;
   font-weight: 400;
   font-size: 14px;
 }
@@ -51,12 +51,12 @@ select, input {
   width: 327px;
   height: 50px;
   border-radius: 10px;
-  background-color: #FFFFFF;
-  border: 1px solid #BBB;
+  background-color: #F0F4F8;
+  border: 1px solid #2D9CDB;
   margin-bottom: 16px;
   padding: 0 16px;
   font-size: 16px;
-  color: #333333;
+  color: #22223B;
 }
 
 button {
@@ -79,7 +79,7 @@ section {
   width: 327px;
   height: 327px;
   border-radius: 20px;
-  border: 1px solid #772FD3;
+   border: 2px solid #2D9CDB;
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -108,7 +108,7 @@ section {
 .currency-value-to-convert {
   font-size: 20px;
   font-weight: 700;
-  color: #070707;
+    color: #27AE60;
 }
 .currency-box img,
 .currency-box .currency,
@@ -129,3 +129,4 @@ section {
     50% { transform: scale(1.07); }
     100% { transform: scale(1); }
 }
+

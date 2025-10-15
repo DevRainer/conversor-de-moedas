@@ -8,7 +8,9 @@ const currencyRates = {
   euro: 6.50,
   libra: 7.40,
   yen: 0.036,
-  bitcoin: 310000
+  bitcoin: 310000,
+  pesoArgentino: 0.026,
+  pesoChileno: 0.0065
 };
 
 const currencyDetails = {
@@ -17,7 +19,9 @@ const currencyDetails = {
   euro: { name: "Euro", image: "./assets/euro.png", locale: "de-DE", symbol: "EUR" },
   libra: { name: "Libra Esterlina", image: "./assets/libra.png", locale: "en-GB", symbol: "GBP" },
   yen: { name: "Iene Japonês", image: "./assets/yen.png", locale: "ja-JP", symbol: "JPY" },
-  bitcoin: { name: "Bitcoin", image: "./assets/bitcoin.png", locale: "en-US", symbol: "BTC" }
+  bitcoin: { name: "Bitcoin", image: "./assets/bitcoin.png", locale: "en-US", symbol: "BTC" },
+  pesoArgentino: { name: "Peso Argentino", image: "./assets/argentina.png", locale: "es-AR", symbol: "ARS" },
+  pesoChileno: { name: "Peso Chileno", image: "./assets/chile.png", locale: "es-CL", symbol: "CLP" }
 };
 
 function convertValues() {

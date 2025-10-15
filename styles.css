@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #F0F4F8;
+  background-color: #0d5dadd3;
   color: #22223b;
   font-size: 16px;
   line-height: 1.6;
@@ -34,7 +34,7 @@ h1 {
 main {
   width: 375px;
   height: 770px;
-  border-radius: 15px;
+  border-radius: 10px;
   margin: 0 auto;
   padding: 44px 24px 23px;
   background: #FFFFFF;

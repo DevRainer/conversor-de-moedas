@@ -4,7 +4,7 @@ const fromCurrencySelect = document.querySelector(".from-select");
 
 const currencyRates = {
   real: 1,
-  dolar: 5.25,
+  dolar: 5.00,
   euro: 6.50,
   libra: 7.40,
   yen: 0.036,
@@ -24,10 +24,12 @@ const currencyDetails = {
   pesoChileno: { name: "Peso Chileno", image: "./assets/chile.png", locale: "es-CL", symbol: "CLP" }
 };
 
-function convertValues() {
+async function convertValues() {
   const inputCurrencyValue = parseFloat(document.querySelector(".input-corrency").value);
   const currencyValueToConvert = document.querySelector(".currency-value-to-convert");
   const currencyValueConverted = document.querySelector(".currency-value");
+
+  /*const data = await fetch("https://api.exchangerate-api.com/v4/latest/BRL");*/
 
   const fromCurrency = fromCurrencySelect.value;
   const toCurrency = currencySelect.value;
@@ -87,3 +89,12 @@ function changeFromCurrency() {
 fromCurrencySelect.addEventListener("change", changeFromCurrency);
 currencySelect.addEventListener("change", changeCurrency);
 convertButton.addEventListener("click", convertValues);
+
+
+
+
+
+
+
+
+

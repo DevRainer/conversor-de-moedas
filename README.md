@@ -33,7 +33,7 @@ Este projeto é um simples conversor de moedas criado com HTML, CSS e JavaScript
    📷 Preview
 
 <p align="center">
-  <img src="assets/conversor-preview.PNG" width="400px">
+  <img src="assets/imagenfinal.png" width="400px">
 </p>
 
 
